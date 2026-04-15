@@ -1,0 +1,16 @@
+{
+  "name": "Axiom Calculator MCP",
+  "description": "Personal finance calculators for Claude and AI agents. Mortgage payments, compound interest growth, FIRE retirement number, loan comparison, debt payoff planning, and inflation-adjusted returns. Zero API keys required — works instantly with any MCP client.",
+  "license": "MIT",
+  "tags": ["finance", "calculator", "mortgage", "investment", "retirement", "fire", "loans", "free"],
+  "tools": [
+    { "name": "mortgage_calculator", "description": "Monthly payment, total interest, and amortization schedule" },
+    { "name": "rent_vs_buy", "description": "Compare total cost of renting vs buying over N years" },
+    { "name": "compound_interest", "description": "Project investment growth with optional monthly contributions" },
+    { "name": "fire_number", "description": "Calculate FIRE target and years-to-retirement timeline" },
+    { "name": "inflation_adjusted_return", "description": "Real vs nominal return after inflation" },
+    { "name": "loan_comparison", "description": "Compare two loans by total cost and true APR" },
+    { "name": "true_credit_cost", "description": "Find the real APR of any credit product or financing offer" },
+    { "name": "debt_payoff_plan", "description": "Payoff timeline and savings from extra payments" }
+  ]
+}

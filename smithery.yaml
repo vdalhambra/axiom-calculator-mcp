@@ -1,0 +1,9 @@
+name: axiom-calculator-mcp
+description: "Personal finance calculators for Claude — mortgage, compound interest, FIRE number, loan comparison, debt payoff, inflation-adjusted returns. No API keys, no setup, just works."
+license: MIT
+tags: [finance, calculator, mortgage, investment, retirement, free]
+startCommand:
+  type: stdio
+  configSchema: {}
+  commandFunction: |-
+    () => ({ command: "uvx", args: ["axiom-calculator-mcp"] })

@@ -1,0 +1,15 @@
+name: axiom-calculator-mcp
+description: "Personal finance calculators for Claude — mortgage payments, compound interest, FIRE retirement number, loan comparison, debt payoff, and inflation-adjusted returns. Zero API keys required, works instantly."
+version: "1.0.0"
+author: vdalhambra
+license: MIT
+tags:
+  - finance
+  - calculator
+  - personal-finance
+  - mortgage
+  - investment
+  - retirement
+  - free
+pricing:
+  model: free
