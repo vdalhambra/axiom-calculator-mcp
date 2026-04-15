@@ -5,7 +5,7 @@ runtime: python
 entrypoint: src/calculator/server.py
 install:
   - pip install -r requirements.txt
-start: python3 -c "import sys; sys.path.insert(0,'/app/src'); from calculator.server import main; main()"
+start: PYTHONPATH=/app/src python3 /app/src/calculator/server.py
 author: vdalhambra
 license: MIT
 tags:
