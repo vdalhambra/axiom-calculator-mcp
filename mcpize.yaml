@@ -3,7 +3,10 @@ description: "Personal finance calculators for Claude — mortgage payments, com
 version: 1.0
 runtime: python
 entrypoint: src/calculator/server.py
-start: uvx axiom-calculator-mcp
+install:
+  - pip install -r requirements.txt
+  - pip install -e .
+start: PYTHONPATH=/app/src python /app/src/calculator/server.py
 author: vdalhambra
 license: MIT
 tags:
